@@ -152,10 +152,10 @@ static void rb_gsl_wavelet_define_const(VALUE klass)
   rb_define_const(klass, "BSPLINE", INT2FIX(GSL_WAVELET_BSPLINE));
   rb_define_const(klass, "BSPLINE_CENTERED", INT2FIX(GSL_WAVELET_BSPLINE_CENTERED));
   /*****/
-  rb_define_const(klass, "FORWARD", INT2FIX(forward));
-  rb_define_const(klass, "Forward", INT2FIX(forward));
-  rb_define_const(klass, "BACKWARD", INT2FIX(backward));
-  rb_define_const(klass, "Backward", INT2FIX(backward));
+  rb_define_const(klass, "FORWARD", INT2FIX(gsl_wavelet_forward));
+  rb_define_const(klass, "Forward", INT2FIX(gsl_wavelet_forward));
+  rb_define_const(klass, "BACKWARD", INT2FIX(gsl_wavelet_backward));
+  rb_define_const(klass, "Backward", INT2FIX(gsl_wavelet_backward));
 }
 
 static VALUE rb_gsl_wavelet_name(VALUE ww)
