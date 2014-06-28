@@ -191,7 +191,7 @@ static VALUE rb_gsl_wavelet_transform0(int argc, VALUE *argv, VALUE obj,
 {
   gsl_wavelet *w = NULL;
   gsl_vector *v = NULL, *vnew;
-  gsl_wavelet_direction dir = forward;
+  gsl_wavelet_direction dir = gsl_wavelet_forward;
   gsl_wavelet_workspace *work = NULL;
   int itmp, flag = 0, status;
   double *ptr1, *ptr2;
@@ -527,7 +527,7 @@ static VALUE rb_gsl_wavelet2d(int argc, VALUE *argv, VALUE obj,
 {
   gsl_wavelet *w = NULL;
   gsl_matrix *m = NULL, *mnew;
-  gsl_wavelet_direction dir = forward;
+  gsl_wavelet_direction dir = gsl_wavelet_forward;
   gsl_wavelet_workspace *work = NULL;
   VALUE ary, ret;
   int itmp, flag = 0, status;
