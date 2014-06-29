@@ -3,7 +3,7 @@ require("gsl")
 require("./gsl_test2.rb")
 include GSL::Test
 
-exit if GSL::VERSION < "1.14"
+exit if GSL::VERSION < "1.16"
 
 
 c63 = [ [ 0,0,0 ],  [ 0,0,1 ],  [ 0,0,2 ],  [ 0,0,3 ], [ 0,0,4 ],  [ 0,0,5 ],

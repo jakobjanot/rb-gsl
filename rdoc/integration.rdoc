@@ -374,7 +374,7 @@
 #        p f457.qawf(0.0, limit, wc, table)      # Error
 #
 # == {}[link:index.html"name="11] Gauss-Legendre integration
-# (GSL-1.14)
+# (GSL-1.16)
 # The fixed-order Gauss-Legendre integration routines are provided for fast integration of smooth functions with known polynomial order. The n-point Gauss-Legendre rule is exact for polynomials of order 2*n-1 or less. For example, these rules are useful when integrating basis functions to form mass matrices for the Galerkin method. Unlike other numerical integration routines within the library, these routines do not accept absolute or relative error bounds.
 #
 # ---

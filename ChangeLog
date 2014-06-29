@@ -1,3 +1,13 @@
+Sun Jun 29 02:00:00 CET 2014
+
+  * Ruby/GSL 1.16.0
+    * Ruby 2.1 compatibility fixes:
+	  - https://gist.github.com/terceiro/10985008
+	* GSL 1.16 compatibility fixes:
+	  - http://blog.riemann.cc/2013/01/05/patching-ruby-gsl/
+	* Compiler compatibility fixes:
+	  - https://github.com/jjk-jacky/abs/blob/master/rb-gsl-jjk/fix-ieee-compile-error.patch
+
 Sat Feb 26 08:18:45 PST 2011
   * Ruby/GSL 1.14.7
     * Fix conversion of non-DFLOAT NArray to GSL::Vector and

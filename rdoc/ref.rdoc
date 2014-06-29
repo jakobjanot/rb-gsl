@@ -42,7 +42,7 @@
 # 1. {Permutations}[link:files/rdoc/perm_rdoc.html]
 # 1. {Combinations}[link:files/rdoc/combi_rdoc.html]
 --
-# 1. {Multiset}[link:files/rdoc/sort_rdoc.html] (GSL-1.14)
+# 1. {Multiset}[link:files/rdoc/sort_rdoc.html] (GSL-1.16)
 ++
 # 1. {Sorting}[link:files/rdoc/sort_rdoc.html]
 # 1. {BLAS Support}[link:files/rdoc/blas_rdoc.html]
