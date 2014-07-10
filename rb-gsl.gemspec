@@ -19,22 +19,7 @@ Gem::Specification.new do |s|
   s.rubyforge_project = 'rb-gsl' 
 
   # Files, Libraries, and Extensions
-  s.files = FileList[
-    'AUTHORS',
-    'COPYING',
-    'ChangeLog',
-    'README',
-    'Rakefile',
-    'setup.rb',
-    'THANKS',
-    'VERSION',
-    'examples/**/*',
-    'ext/*{.h,.c,.rb}',
-    'lib/**/*',
-    'include/*',
-    'rdoc/*',
-    'tests/**/*'
-  ].to_a
+  s.files = `git ls-files`.split("n")
   s.require_paths = ['lib', 'lib/gsl', 'lib/ool', 'ext']
   #s.autorequire = nil
   #s.bindir = 'bin'
